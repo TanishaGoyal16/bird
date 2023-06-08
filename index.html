@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://code.jquery.com/jquery-1.9.0.js"></script>
+    <script type="text/javascript" src="jquery.ebcaptcha.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    
+        <div class="row" >
+            <div class="col-sm-4">
+<div class="header">
+        <h4> TATA POWER DELHI DISTRIBUTION LIMITED</h4>
+        <span>(A Tata Power and Delhi Government joint venture)<span>
+      </div>
+    </div>
+    <div class="col-sm-8 head">
+
+    </div>
+    </div>
+
+
+<div class="row">
+    <div class="nav1">
+    <div class="col-sm-9">
+       Welcome : BIRD 121BIRD
+    </div>
+    <div class="col-sm-3 nav">
+<a href="#">Home</a>|
+<a href="#">Logout</a>
+    </div>
+</div>
+</div>
+
+<div class="row">
+    <div class="nav2">
+        <div class="col-sm-1">
+             Admin
+        </div>
+        <div class="col-sm-1">
+            Bird Request
+        </div>
+        <div class="col-sm-1">
+            Request Details
+        </div>
+        <div class="col-sm-1">
+            Search Bills
+        </div>
+        <div class="col-sm-1">
+            Reports
+        </div>
+        <div class="col-sm-7 ">
+            
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-12 h2">
+       <h2> Pending Request</h2>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-4 field">
+        <label for="Request Type"> Request Type</label>
+        &nbsp;
+        <select name="Request Type" id="Request Type">
+    <option value="">----select-----</option>
+    <option value="saab">Saab</option>
+    <option value="opel">Opel</option>
+    <option value="audi">Audi</option>
+  </select>
+    </div>
+    <div class="col-sm-4 field">
+        <label for="Request SubType"> Request SubType</label>
+       
+    <select name="Request SubType" id="Request SubType">
+    <option value="">----select-----</option>
+    <option value="saab">Saab</option>
+    <option value="opel">Opel</option>
+    <option value="audi">Audi</option>
+  </select>
+    </div>
+    <div class="col-sm-4 field">
+        <label for="Pending On">Pending On</label>
+    
+        <input type="text" id="Pending On" name="Pending On">
+    </div>
+</div>
+
+<div class="row">
+    
+    <div class="col-sm-4 field">
+        <label for="Bird No"> Bird No</label>
+        &emsp;&emsp;&emsp;&nbsp;
+        <input type="text" id="Bird No" name="Bird No">
+    </div>
+    <div class="col-sm-4 field">
+        <label for="Invoice No"> Invoice No</label>
+        &emsp;&emsp;&emsp;&nbsp;
+        <input type="text" id="Invoice No" name="Invoice No">
+        
+    </div>
+    <div class="col-sm-4">
+        <label for="Pending Request Type"><b>Pending Request Type</b> </label>
+    </div>
+
+</div>
+
+<div class="row">
+   
+    <div class="col-sm-4 field">
+        <label for="Department"> Department</label>
+        &emsp;&nbsp;
+        <select style="width:250px" name="Department" id="Department">
+            <option value="">----select-----</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+          </select>
+    </div>
+    <div class="col-sm-4 field">
+        <label for="Vendor Name">Vendor Name</label>
+        &emsp;&emsp;
+        <input type="text" id="Vendor Name" name="Vendor Name">
+        
+    </div>
+    <div class="col-sm-4">
+        <input type="radio">
+        <label for="Pending Request Type">All Requests</label>
+         <input type="radio" >
+        <label for="Pending Request Type">Internal </label>
+    </div>
+
+</div>
+
+<div class="row">
+    
+    <div class="col-sm-4 field">
+        <label for="From Date"> From Date</label>
+        &emsp;&emsp;
+        <input type="date" id="From Date" name="From Date">
+    </div>
+    <div class="col-sm-4 field">
+        <label for="To Date">To Date</label>
+        &emsp;&emsp;&emsp;&emsp;&emsp;
+        <input type="date" id="To Date" name="To Date">
+        
+    </div>
+    <div class="col-sm-4">
+        <a href="#"> Add Payment</a>
+        <a href="#"> Hold</a>
+        <a href="#">Unhold</a>
+        <a href="#">Bulk Close</a>
+        <a href="#"> Pending Remarks</a>
+        <a href="#">Bulk Forwarding</a>
+    </div>
+
+</div>
+
+<div class="row">
+    
+    <div class="col-sm-4 field">
+        <label for="Order No"> Order No</label>
+        &emsp;&emsp;&nbsp;&nbsp;
+        <input type="text" id="Order No" name="Order No">
+    </div>
+    <div class="col-sm-8">
+      
+    </div>
+    </div>
+
+<div class="row">
+    
+    <div class="col-sm-5">
+
+    </div>
+    <div class="col-sm-5">
+        <button type="button" class="btn btn-primary">Search</button>
+        <button type="button" class="btn btn-primary">Bill Received Status</button>
+        <button type="button" class="btn btn-primary">Clear</button>
+        <button type="button" class="btn btn-primary">Exit</button>
+    </div>
+    <div class="col-sm-2">
+      
+    </div>
+</div>
+<div class="row">
+   <div class="col-sm-5">
+        
+    </div>
+    <div class="col-sm-5 txt">
+      Click on search to view your Pending Requests
+    </div>
+    <div class="col-sm-2">
+      
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-5">
+         
+     </div>
+     <div class="col-sm-5 txt1">
+       Total number of bills:'995'
+     </div>
+     <div class="col-sm-2">
+       
+     </div>
+ </div>
+
+ <div class="row">
+    <div class="col-sm-4 h2">
+         Search Result Search Result
+     </div>
+     <div class="col-sm-6">
+     
+     </div>
+     <div class="col-sm-2">
+        <button type="button" class="btn btn-primary">Export to Excel</button>
+     </div>
+ </div>
+
+
+
+
+
+
+
+
+<div class="row">
+    <table class="table">
+        <thead>
+            <tr>
+             <th>Action</th>
+             <th>Chk</th>
+             <th>Bird No.</th>
+             <th>Vendor Name</th>
+             <th>Request Date</th>
+             <th>Order Number</th>
+             <th>Req Type</th>
+             <th>Req SubType</th>
+             <th>Invoice</th>
+             <th>Invoice Date</th>
+             <th>Invoice Amount</th>
+             <th>Pending On</th>
+             <th>Dept</th>
+             <th>Pending on Int</th>
+             <th>Received on date</th>
+             <th>Bird No.</th>
+             <th>Attachments</th>
+             <th>Edit</th>
+            </tr>
+        </thead>
+        <tbody>
+              <tr>
+                    <td data-label="Action"><a href="#">Forwarding</a></td>
+                    <td data-label="chk"><input type="checkbox"></td>
+                    <td data-label="Bird No.">BM33425</td>
+                    <td data-label="Vendor Name">PCA TECHNOLOGIES PRIVATE LIMITED</td>
+                    <td data-label="Request Date">23-May-23</td>
+                    <td data-label="Order Number">350013508</td>
+                    <td data-label="Req Type">Commercial</td>
+                    <td data-label="Req SubType">PROFESSIONAL CHARGES</td>
+                    <td data-label="Invoice">PCA/FY24/026</td>
+                    <td data-label="Invoice Date">13-MAY-2023</td>
+                    <td data-label="Invoice Amount">70564</td>
+                    <td data-label="Pending On">LALIT KUMAR SHAH</td>
+                    <td data-label="Dept">EHV PROJECT</td>
+                    <td data-label="Pnding On Int"></td>
+                    <td data-label="Received on date">23-MAY-2023</td>
+                    <td data-label="Bird No.">2324BM33425</td>
+                    <td data-label="Attachments"><a href="#">NA</a></td>
+                    <td data-label="Edit"><a href="#">EDIT</a></td>
+              </tr>
+   
+              <tr>
+                <td data-label="Action"><a href="#">Forwarding</a></td>
+                <td data-label="chk"><input type="checkbox"></td>
+                <td data-label="Bird No.">BM33424</td>
+                <td data-label="Vendor Name">PCA TECHNOLOGIES PRIVATE LIMITED</td>
+                <td data-label="Request Date">23-May-23</td>
+                <td data-label="Order Number">350013508</td>
+                <td data-label="Req Type">SUPPLY OF MATERIAL</td>
+                <td data-label="Req SubType">Supply at Other Department</td>
+                <td data-label="Invoice">PCA/FY24/009</td>
+                <td data-label="Invoice Date">15-APRIL-2023</td>
+                <td data-label="Invoice Amount">126389</td>
+                <td data-label="Pending On">LALIT KUMAR SHAH</td>
+                <td data-label="Dept">EHV PROJECT</td>
+                <td data-label="Pnding On Int"></td>
+                <td data-label="Received on date">23-MAY-2023</td>
+                <td data-label="Bird No.">2324BM33424</td>
+                <td data-label="Attachments"><a href="#">NA</a></td>
+                <td data-label="Edit"><a href="#">EDIT</a></td>
+              </tr>
+   
+              <tr>
+                <td data-label="Action"><a href="#">Forwarding</a></td>
+                <td data-label="chk"><input type="checkbox"></td>
+                <td data-label="Bird No.">BM33423</td>
+                <td data-label="Vendor Name">PURAN SINGH RAUTELA</td>
+                <td data-label="Request Date">23-May-23</td>
+                <td data-label="Order Number">APPROVAL</td>
+                <td data-label="Req Type">ADMINISTRATION</td>
+                <td data-label="Req SubType">STAFF WELFARE EXPENSES</td>
+                <td data-label="Invoice">11</td>
+                <td data-label="Invoice Date">22-MAY-2023</td>
+                <td data-label="Invoice Amount">45678</td>
+                <td data-label="Pending On">ACCOUNTS PAYABLE</td>
+                <td data-label="Dept">ACCOUNTS PAYABLE(CAPS)</td>
+                <td data-label="Pnding On Int"></td>
+                <td data-label="Received on date">23-MAY-2023</td>
+                <td data-label="Bird No.">2324BM33423</td>
+                <td data-label="Attachments"><a href="#">NA</a></td>
+                <td data-label="Edit"><a href="#">EDIT</a></td>
+              </tr>
+   
+              <tr>
+                <td data-label="Action"><a href="#">Forwarding</a></td>
+                <td data-label="chk"><input type="checkbox"></td>
+                <td data-label="Bird No.">BM33422</td>
+                <td data-label="Vendor Name">PURAN SINGH RAUTELA</td>
+                <td data-label="Request Date">23-May-23</td>
+                <td data-label="Order Number">APPROVAL</td>
+                <td data-label="Req Type">ADMINISTRATION</td>
+                <td data-label="Req SubType">STAFF WELFARE EXPENSES</td>
+                <td data-label="Invoice">12</td>
+                <td data-label="Invoice Date">22-MAY-2023</td>
+                <td data-label="Invoice Amount">44341</td>
+                <td data-label="Pending On">ACCOUNTS PAYABLE</td>
+                <td data-label="Dept">ACCOUNTS PAYABLE(CAPS)</td>
+                <td data-label="Pnding On Int"></td>
+                <td data-label="Received on date">23-MAY-2023</td>
+                <td data-label="Bird No.">2324BM33422</td>
+                <td data-label="Attachments"><a href="#">NA</a></td>
+                <td data-label="Edit"><a href="#">EDIT</a></td>
+              </tr>
+
+              <tr>
+                <td data-label="Action"><a href="#">Forwarding</a></td>
+                <td data-label="chk"><input type="checkbox"></td>
+                <td data-label="Bird No.">BM334221</td>
+                <td data-label="Vendor Name">RISHABH ENTTERPRISES</td>
+                <td data-label="Request Date">23-May-23</td>
+                <td data-label="Order Number">APPROVAL</td>
+                <td data-label="Req Type">ADMINISTRATION</td>
+                <td data-label="Req SubType">STAFF WELFARE EXPENSES</td>
+                <td data-label="Invoice">RE/013(23-24)</td>
+                <td data-label="Invoice Date">30-APRIL-2023</td>
+                <td data-label="Invoice Amount">26260</td>
+                <td data-label="Pending On">ACCOUNTS PAYABLE</td>
+                <td data-label="Dept">ACCOUNTS PAYABLE(CAPS)</td>
+                <td data-label="Pnding On Int"></td>
+                <td data-label="Received on date">23-MAY-2023</td>
+                <td data-label="Bird No.">2324BM33421</td>
+                <td data-label="Attachments"><a href="#">NA</a></td>
+                <td data-label="Edit"><a href="#">EDIT</a></td>
+              </tr>
+
+              <tr>
+                <td data-label="Action"><a href="#">Forwarding</a></td>
+                <td data-label="chk"><input type="checkbox"></td>
+                <td data-label="Bird No.">BM334220</td>
+                <td data-label="Vendor Name">NAVEEN KUMAR</td>
+                <td data-label="Request Date">23-May-23</td>
+                <td data-label="Order Number">APPROVAL</td>
+                <td data-label="Req Type">ADMINISTRATION</td>
+                <td data-label="Req SubType">STAFF WELFARE EXPENSES</td>
+                <td data-label="Invoice">98</td>
+                <td data-label="Invoice Date">17-MAY-2023</td>
+                <td data-label="Invoice Amount">6800</td>
+                <td data-label="Pending On">ACCOUNTS PAYABLE</td>
+                <td data-label="Dept">ACCOUNTS PAYABLE(CAPS)</td>
+                <td data-label="Pnding On Int"></td>
+                <td data-label="Received on date">23-MAY-2023</td>
+                <td data-label="Bird No.">2324BM33420</td>
+                <td data-label="Attachments"><a href="#">NA</a></td>
+                <td data-label="Edit"><a href="#">EDIT</a></td>
+              </tr>
+
+              <tr>
+                <td data-label="Action"><a href="#">Forwarding</a></td>
+                <td data-label="chk"><input type="checkbox"></td>
+                <td data-label="Bird No.">BM334219</td>
+                <td data-label="Vendor Name">NAVEEN KUMAR</td>
+                <td data-label="Request Date">23-May-23</td>
+                <td data-label="Order Number">APPROVAL</td>
+                <td data-label="Req Type">ADMINISTRATION</td>
+                <td data-label="Req SubType">STAFF WELFARE EXPENSES</td>
+                <td data-label="Invoice">99</td>
+                <td data-label="Invoice Date">22-MAY-2023</td>
+                <td data-label="Invoice Amount">680</td>
+                <td data-label="Pending On">ACCOUNTS PAYABLE</td>
+                <td data-label="Dept">ACCOUNTS PAYABLE(CAPS)</td>
+                <td data-label="Pnding On Int"></td>
+                <td data-label="Received on date">23-MAY-2023</td>
+                <td data-label="Bird No.">2324BM33419</td>
+                <td data-label="Attachments"><a href="#">NA</a></td>
+                <td data-label="Edit"><a href="#">EDIT</a></td>
+              </tr>
+
+              <tr>
+                <td data-label="Action"><a href="#">Forwarding</a></td>
+                <td data-label="chk"><input type="checkbox"></td>
+                <td data-label="Bird No.">BM334218</td>
+                <td data-label="Vendor Name">SYNERGY FIRE AND SAFETY MANAGEMENT</td>
+                <td data-label="Request Date">23-May-23</td>
+                <td data-label="Order Number"></td>
+                <td data-label="Req Type">ELECTRICAL</td>
+                <td data-label="Req SubType">REPAIR & MAINTENANCE</td>
+                <td data-label="Invoice">00032/23-24</td>
+                <td data-label="Invoice Date">22-MAY-2023</td>
+                <td data-label="Invoice Amount">1680</td>
+                <td data-label="Pending On">BIRD</td>
+                <td data-label="Dept">BIRD</td>
+                <td data-label="Pnding On Int"></td>
+                <td data-label="Received on date">23-MAY-2023</td>
+                <td data-label="Bird No.">2324BM33418</td>
+                <td data-label="Attachments"><a href="#">NA</a></td>
+                <td data-label="Edit"><a href="#">EDIT</a></td>
+              </tr>
+
+              <tr>
+                <td data-label="Action"><a href="#">Forwarding</a></td>
+                <td data-label="chk"><input type="checkbox"></td>
+                <td data-label="Bird No.">BM334217</td>
+                <td data-label="Vendor Name">SYNERGY FIRE AND SAFETY MANAGEMENT</td>
+                <td data-label="Request Date">23-May-23</td>
+                <td data-label="Order Number"></td>
+                <td data-label="Req Type">ELECTRICAL</td>
+                <td data-label="Req SubType">REPAIR & MAINTENANCE</td>
+                <td data-label="Invoice">00032/23-24</td>
+                <td data-label="Invoice Date">22-MAY-2023</td>
+                <td data-label="Invoice Amount">4580</td>
+                <td data-label="Pending On">BIRD</td>
+                <td data-label="Dept">BIRD</td>
+                <td data-label="Pnding On Int"></td>
+                <td data-label="Received on date">23-MAY-2023</td>
+                <td data-label="Bird No.">2324BM33417</td>
+                <td data-label="Attachments"><a href="#">NA</a></td>
+                <td data-label="Edit"><a href="#">EDIT</a></td>
+              </tr>
+
+              <tr>
+                <td data-label="Action"><a href="#">Forwarding</a></td>
+                <td data-label="chk"><input type="checkbox"></td>
+                <td data-label="Bird No.">BM33416</td>
+                <td data-label="Vendor Name">PCA TECHNOLOGIES PRIVATE LIMITED</td>
+                <td data-label="Request Date">23-May-23</td>
+                <td data-label="Order Number">350013508</td>
+                <td data-label="Req Type">SUPPLY OF MATERIAL</td>
+                <td data-label="Req SubType">Supply at Other Department/td>
+                <td data-label="Invoice">PCA/FY24/009</td>
+                <td data-label="Invoice Date">15-APRIL-2023</td>
+                <td data-label="Invoice Amount">126389</td>
+                <td data-label="Pending On">LALIT KUMAR SHAH</td>
+                <td data-label="Dept">EHV PROJECT</td>
+                <td data-label="Pnding On Int"></td>
+                <td data-label="Received on date">23-MAY-2023</td>
+                <td data-label="Bird No.">2324BM33416</td>
+                <td data-label="Attachments"><a href="#">NA</a></td>
+                <td data-label="Edit"><a href="#">EDIT</a></td>
+              </tr>
+
+
+
+        </tbody>
+      </table>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    
+</body>
+</html>
